@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -51,6 +54,3 @@ class Solution:
                     board[r][c] = "O"
                 elif board[r][c] == "O":
                     board[r][c] = "X"
-
-
-    

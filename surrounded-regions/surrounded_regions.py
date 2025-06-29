@@ -33,7 +33,7 @@ class Solution:
                 is_surrounded(matrix, row+1, col, visited)
             return matrix
 
-        # loop through the border rows and looks for "O"
+        # loop through the border rows and look for "O"
         # then find the adjacent "O" cells and to mark them as invalid.
         for c in range(num_cols):
             if board[0][c] == "O":
